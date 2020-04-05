@@ -13,5 +13,10 @@
 
     <build>
         <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 </project>
